@@ -1,3 +1,14 @@
+<!--
+ * @Author: xiaoshuhao1999
+ * @Date: 2023-09-02 16:39:23
+ * @LastEditors: xiaoshuhao1999 247695042@qq.com
+ * @LastEditTime: 2023-09-04 16:38:36
+ * @FilePath: /tarot/src/pages/drawCardPage/components/unlockWidget.vue
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by 247695042@qq.com, All Rights Reserved. 
+-->
+
 <script setup>
 
 import { ref, onMounted, defineProps } from 'vue';

@@ -1,3 +1,15 @@
+<!--
+ * @Author: xiaoshuhao1999
+ * @Date: 2023-09-01 18:01:51
+ * @LastEditors: xiaoshuhao1999 247695042@qq.com
+ * @LastEditTime: 2023-09-04 16:38:07
+ * @FilePath: /tarot/src/components/Tabbar/index.vue
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by 247695042@qq.com, All Rights Reserved. 
+-->
+
+
 <script setup>
 import { defineProps } from 'vue';
 

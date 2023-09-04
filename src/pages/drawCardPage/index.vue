@@ -1,3 +1,14 @@
+<!--
+ * @Author: xiaoshuhao1999
+ * @Date: 2023-08-31 20:49:52
+ * @LastEditors: xiaoshuhao1999 247695042@qq.com
+ * @LastEditTime: 2023-09-04 16:38:49
+ * @FilePath: /tarot/src/pages/drawCardPage/index.vue
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by 247695042@qq.com, All Rights Reserved. 
+-->
+
 <script setup>
 /**
  * 外部组件

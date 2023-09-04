@@ -1,3 +1,14 @@
+<!--
+ * @Author: xiaoshuhao1999
+ * @Date: 2023-09-01 09:09:14
+ * @LastEditors: xiaoshuhao1999 247695042@qq.com
+ * @LastEditTime: 2023-09-04 16:38:29
+ * @FilePath: /tarot/src/pages/drawCardPage/components/plateWidget.vue
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by 247695042@qq.com, All Rights Reserved. 
+-->
+
 <script setup>
 import { ref, watch, onMounted, defineEmits } from 'vue';
 import {selectCard} from '../../../service/selectCard.js';

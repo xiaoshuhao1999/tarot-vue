@@ -1,3 +1,14 @@
+/*
+ * @Author: xiaoshuhao1999
+ * @Date: 2023-08-31 20:27:36
+ * @LastEditors: xiaoshuhao1999 247695042@qq.com
+ * @LastEditTime: 2023-09-04 16:41:14
+ * @FilePath: /tarot/src/style.css
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by 247695042@qq.com, All Rights Reserved. 
+ */
+
 *{margin:0; padding:0; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0,0,0,0);}
 html{font-size: 5.2083333vw; overflow: hidden; font-family: "Helvetica Neue", Helvetica, STHeiTi, "Microsoft YaHei", Arial, sans-serif;
 }
