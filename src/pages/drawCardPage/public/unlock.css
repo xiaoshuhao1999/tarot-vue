@@ -2,7 +2,7 @@
  * @Author: xiaoshuhao1999
  * @Date: 2023-09-04 15:15:09
  * @LastEditors: xiaoshuhao1999 247695042@qq.com
- * @LastEditTime: 2023-09-04 16:39:02
+ * @LastEditTime: 2023-09-04 17:21:02
  * @FilePath: /tarot/src/pages/drawCardPage/public/unlock.css
  * @Description: 
  * 
@@ -21,6 +21,7 @@
   width: 11rem;
   font-size: .875rem;
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .canvasStyle {
@@ -84,6 +85,7 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
+  margin-top: .75rem;
 }
 
 .tab_active {

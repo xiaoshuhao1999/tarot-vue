@@ -2,7 +2,7 @@
  * @Author: xiaoshuhao1999
  * @Date: 2023-09-02 16:39:23
  * @LastEditors: xiaoshuhao1999 247695042@qq.com
- * @LastEditTime: 2023-09-04 16:38:36
+ * @LastEditTime: 2023-09-04 17:21:31
  * @FilePath: /tarot/src/pages/drawCardPage/components/unlockWidget.vue
  * @Description: 
  * 
@@ -107,7 +107,7 @@ onMounted(() => {
         </div>
       </div>
     </div>
-    <div style="flex: 1;display: flex;flex-direction: column;align-items: center;">
+    <div style="min-height: 44vh; display: flex;flex-direction: column;align-items: center;">
       <div class="tabList">
         <div class="tabItem" @click="changeTabIndex(index)" :class="{ tab_active: cardTypeIndex == index }"
           v-for="(item, index) in tabData" :key="index">{{ item.title }}</div>

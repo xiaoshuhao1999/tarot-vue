@@ -2,7 +2,7 @@
  * @Author: xiaoshuhao1999
  * @Date: 2023-08-31 20:49:52
  * @LastEditors: xiaoshuhao1999 247695042@qq.com
- * @LastEditTime: 2023-09-04 16:38:49
+ * @LastEditTime: 2023-09-04 17:17:43
  * @FilePath: /tarot/src/pages/drawCardPage/index.vue
  * @Description: 
  * 
@@ -138,6 +138,7 @@ watch(cardState, (newVal, oldVal) => {
   width: 100%;
   height: 100%;
   overflow-y:scroll;
+  overflow-x: hidden;
 }
 </style>
 
