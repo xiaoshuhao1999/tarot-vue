@@ -1,0 +1,41 @@
+*{margin:0; padding:0; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+html{font-size: 5.2083333vw; overflow: hidden; font-family: "Helvetica Neue", Helvetica, STHeiTi, "Microsoft YaHei", Arial, sans-serif;
+}
+body{margin: 0 auto; min-width:320px;  font-size: 0.14rem; color:#666;  -webkit-overflow-scrolling: touch; -webkit-text-size-adjust: 100%!important; -ms-text-size-adjust: 100%!important; -moz-text-size-adjust: 100%!important; text-size-adjust: 100%!important;
+}
+html, body{scroll-behavior: smooth;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{display: block;}
+audio, canvas, progress, video{display: inline-block; vertical-align: baseline;}
+audio:not([controls]){display: none; height: 0;}
+[hidden], template{display: none;}
+svg:not(:root){overflow: hidden;}
+
+/* 滚动条样式 */
+::-webkit-scrollbar{display: none; width: 0.05rem;height: 0.02rem;}
+::-webkit-scrollbar-button{height:0;width:0;}
+::-webkit-scrollbar-track{background-color: rgba(0,0,0,0); border-radius: 0.03rem;}
+::-webkit-scrollbar-thumb{background:rgba(209, 214, 216,0); border-radius: 0.03rem; }
+
+/* 引入字体 */
+@font-face {
+  font-family: "DLT";
+  src: url("./assets/font/AlimamaDaoLiTi.ttf") format("truetype");
+}
+
+.confirmBtn {
+  width: 9.375rem;
+  height: 2.8125rem;
+  background: url('./assets/images/button_bg.png') no-repeat;
+  background-size: 100% 100%;
+  font-size: 1rem;
+  color: #FFD989;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_style{
+  position: absolute;
+  bottom: 8%;
+  left: 26%;
+  transform: translateX(-50%);
+}

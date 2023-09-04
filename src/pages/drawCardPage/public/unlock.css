@@ -1,0 +1,127 @@
+.unlock_content {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.unlockBtn {
+  width: 11rem;
+  font-size: .875rem;
+  position: relative;
+}
+
+.canvasStyle {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card_connect {
+  width: calc(100vw * 0.79);
+  height: calc(100vh * 0.31);
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card_cnec_style {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  animation-duration: 1.8s;
+}
+
+.emotion {
+  top: -2.412rem;
+  left: calc(100vw * 0.79 / 2 - 2.24rem);
+}
+
+.cause {
+  bottom: -3.412rem;
+  left: -1rem;
+}
+
+.riches {
+  bottom: -3.412rem;
+  right: -1rem;
+}
+
+.card_bot,
+.card_type {
+  color: #f5d382;
+  font-size: 0.6rem;
+}
+
+.card_type {
+  font-size: .875rem;
+}
+
+.card_cnec_bg {
+  margin: .35rem 0;
+  width: 4.48rem;
+  height: 7.625rem;
+  background: url('../../../assets/images/card_front.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.tabList {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.tab_active {
+  position: relative;
+  color: #FFD989 !important;
+}
+
+.tab_active::after {
+  content: '';
+  position: absolute;
+  bottom: -0.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all .3s ease-in;
+  width: 1rem;
+  height: .125rem;
+  background-color: #FFD989;
+  border-radius: .25rem;
+}
+
+.tabItem {
+  font-size: .875rem;
+  color: #A2864C;
+}
+
+.unlock_box {
+  margin: 1rem 0;
+  width: 16.625rem;
+  min-height: 8.875rem;
+  background-color: #3b3e4c;
+  border: 1px solid #FFD989;
+  border-radius: .625rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: .5rem .75rem;
+}
+
+.unlock_title {
+  font-weight: bold;
+  color: #FFD989;
+  font-size: .875rem;
+}
+
+.unlock_text {
+  color: #FFD989;
+  font-size: .75rem;
+  flex: 1;
+  margin-top: 0.45rem;
+  line-height: 1.1rem;
+}

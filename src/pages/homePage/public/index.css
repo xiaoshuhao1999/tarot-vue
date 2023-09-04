@@ -1,0 +1,81 @@
+
+.tarot_index {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1e180f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tarot_title {
+  margin-top: 2.2875rem;
+  font-family: "DLT";
+  /* color: #F9F0C7; */
+  background-image: linear-gradient(to bottom, #fff, #fdd775);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 3.125rem;
+}
+
+.tarot_title_en {
+  font-family: "Century";
+  color: #9B8C5B;
+  font-size: .8125rem;
+}
+
+.tarot_tit {
+  color: #FDE2A1;
+  font-size: .8125rem;
+  margin: 1.3rem 2rem;
+  text-align: center;
+}
+
+.tarot_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 13.25rem;
+  height: 22.875rem;
+  background: url('../../../assets/images/tarot_bg.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.tarot_center {
+  width: 15.9375rem;
+  height: 15.9375rem;
+  background: url('../../../assets/images/tarot_center_animate.png') no-repeat;
+  background-size: 100% 100%;
+  animation: cenetr_rotate 6.8s infinite linear;
+}
+
+.animation-delay-1 {
+  animation-delay: 100ms;
+}
+
+.animation-delay-2 {
+  animation-delay: 300ms;
+}
+
+.animation-delay-3 {
+  animation-delay: 500ms;
+}
+
+.animation-delay-4 {
+  animation-delay: 700ms;
+}
+
+.animation-delay-5 {
+  animation-delay: 900ms;
+}
+
+@keyframes cenetr_rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}

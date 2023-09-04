@@ -1,0 +1,238 @@
+.card_plate {
+  width: 30.5rem;
+  height: 30.5rem;
+  /* background-color: aqua; */
+  position: absolute;
+  /* transform: translateX(-50%) rotateZ(180deg); */
+  border-radius: 50%;
+  left: 50%;
+  top: -56%;
+  transition: all 0.3s linear;
+}
+
+.card {
+  position: absolute;
+  bottom: -7.625rem;
+  left: 50%;
+  transform: translate(-50%);
+  width: 4.48rem;
+  height: 7.625rem;
+  transform-origin: center -15.25rem;
+  transform-style: preserve-3d;
+}
+
+.copy_box {
+  position: relative;
+  z-index: 9;
+  transition: all .45s ease-out;
+}
+
+.card_copy {
+  position: absolute;
+  bottom: 0;
+  top: 4.875rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4.48rem;
+  height: 7.625rem;
+  box-shadow: 0 0 .375rem rgb(208, 172, 96);
+  transform-origin: center -21.25rem;
+  transform-style: preserve-3d;
+}
+
+.card_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4.48rem;
+  height: 7.625rem;
+  transform-origin: center -15.25rem;
+  transform-style: preserve-3d;
+  transition: all .3s ease-in-out;
+}
+
+.card_box {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  /* border-radius: 10px; */
+  transition: all 1.3s ease-in-out;
+  box-shadow: 0 0 2px rgba(208, 172, 96, 0.4);
+}
+
+.card_front {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url('../../../assets/images/card_front.png') no-repeat;
+  background-size: 100% 100%;
+  /* border: 1px solid #7f7967; */
+  transition: all 0.8s ease-out;
+  backface-visibility: hidden;
+  /* border-radius: 10px; */
+}
+
+.card_box>.card_front_isClick {
+  background-color: transparent;
+  border: none;
+}
+
+.card_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: beige; */
+  background: url('../../../assets/images/card_front.png') no-repeat;
+  background-size: 100% 100%;
+  backface-visibility: hidden;
+  transition: all 0.3s ease-out;
+  /* border-radius: 10px; */
+  transform: rotateY(180deg);
+}
+
+.fadeInDown_animate {
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.tit_text {
+  position: absolute;
+  left: 15%;
+  transform: translateX(-50%);
+  top: 42%;
+  color: #f5d382;
+  font-size: 1rem;
+  align-self: center;
+  width: 72%;
+  text-align: center;
+  text-shadow: 0 0 2.625rem #f5d382;
+}
+
+
+
+.tarot_select_list {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 27%;
+  width: 100%;
+}
+
+.tarot_select_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tarot_select_bg {
+  width: 4.48rem;
+  height: 7.625rem;
+  background: url('../../../assets/images/2.png') no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.tarot_select_text {
+  color: #f5d382;
+  writing-mode: vertical-lr;
+  letter-spacing: 0.5em;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.bot_line{
+  color: #f5d382;
+  font-size: 0.6rem;
+  margin-top: .3rem;
+  padding: .175rem;
+  position: absolute;
+  bottom: -1.5rem;
+}
+.bot_line::before{
+  content: '';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right,transparent,#f5d382,transparent );
+}
+.bot_line::after{
+  content: '';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right,transparent,#f5d382,transparent );
+}
+/*  旋转卡片效果 */
+.rotateCard{
+  transform: rotateX(180deg);
+  transition: all .36s linear;
+  /* animation: rotateCard 1.2s ease-in-out; */
+}
+.rotate_delay_0{
+  animation-delay: 6s;
+}
+.rotate_delay_1{
+  animation-delay: 8.2s;
+}
+.rotate_delay_2{
+  animation-delay: 9.4s;
+}
+
+@keyframes rotateCard {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes fadeInDown {
+
+  0%,
+  60%,
+  75%,
+  90%,
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+    animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-50%, -3000px, 0) scaleY(3);
+    transform: translate3d(-50%, -3000px, 0) scaleY(3);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-50%, 25px, 0) scaleY(.9);
+    transform: translate3d(-50%, 25px, 0) scaleY(.9);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-50%, -10px, 0) scaleY(.95);
+    transform: translate3d(-50%, -10px, 0) scaleY(.95);
+  }
+
+  90% {
+    -webkit-transform: translate3d(-50%, 5px, 0) scaleY(.985);
+    transform: translate3d(-50%, 5px, 0) scaleY(.985);
+  }
+
+  100% {
+    -webkit-transform: translateZ(0) translateX(-50%);
+    transform: translateZ(0) translateX(-50%);
+  }
+}
