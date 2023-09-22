@@ -1,7 +1,20 @@
-# Vue 3 + Vite
+## 塔罗牌动画效果
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+使用的Vue3搭建的项目
 
-## Recommended IDE Setup
+## 下载环境
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+```node
+npm install
+npm run dev
+```
+
+## 效果图
+
+![0](https://github.com/xiaoshuhao1999/tarot-vue/blob/main/public/1.2.gif?raw=true)
+
+![1](https://github.com/xiaoshuhao1999/tarot-vue/blob/main/public/1_1.gif?raw=true)
+
+![2_1_](https://github.com/xiaoshuhao1999/tarot-vue/blob/main/public/2_1.gif?raw=true)
+
+![2_2_](/public/2_2_.gif)
